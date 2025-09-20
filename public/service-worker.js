@@ -29,3 +29,19 @@ self.addEventListener('fetch', (e) => {
     }).catch(() => cached))
   );
 });
+
+// Background Sync (one-off)
+self.addEventListener('sync', (event) => {
+  // Example placeholder: queue processing could go here
+  // if (event.tag === 'sync-queued-actions') {
+  //   event.waitUntil(processQueuedActions());
+  // }
+});
+
+// Periodic Background Sync (if supported)
+self.addEventListener('periodicsync', (event) => {
+  // Example placeholder: refresh lightweight data
+  // if (event.tag === 'refresh-data') {
+  //   event.waitUntil(fetch('/health').then(()=>{}).catch(()=>{}));
+  // }
+});

@@ -1,11 +1,34 @@
 {
+  "id": "/?source=pwa",
   "name": "EcoSafe",
   "short_name": "EcoSafe",
-  "start_url": "/",
+  "description": "EcoSafe helps businesses onboard securely, supporting multilingual login and a fast, privacy‑first experience.",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#000000",
+  "display_override": ["standalone", "fullscreen"],
+  "background_color": "#FFFFFF",
   "theme_color": "#0B7A6F",
   "orientation": "portrait",
+  "categories": ["business", "productivity", "utilities"],
+  "launch_handler": { "client_mode": "focus-existing" },
+  "shortcuts": [
+    {
+      "name": "Login",
+      "short_name": "Login",
+      "description": "Jump to the login screen",
+      "url": "/login"
+    },
+    {
+      "name": "Language",
+      "short_name": "Language",
+      "description": "Change language",
+      "url": "/language"
+    }
+  ],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/icons/icon-72.png",

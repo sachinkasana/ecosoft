@@ -15,6 +15,7 @@ const router = createBrowserRouter([
   { path: '/', element: <Splash /> },            // Splash decides next screen
   { path: '/language', element: <Language /> },  // Language selection
   { path: '/login', element: <LoginScreen /> },  // Phone login screen
+  { path: '/share', element: <App /> },          // Share target fallback
   { path: '/home', element: <App /> },           // post-login “home”
 ])
 
