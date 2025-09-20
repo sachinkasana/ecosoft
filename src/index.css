@@ -1,0 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+* { -webkit-tap-highlight-color: transparent; }
+.safe { padding-bottom: env(safe-area-inset-bottom); }

@@ -1,0 +1,13 @@
+{
+  "enterMobile": "Enter Your Mobile Number",
+  "mobileNumber": "Mobile Number",
+  "termsPrefix": "By continuing, you agree to our",
+  "terms": "Terms of service",
+  "and": "and",
+  "privacy": "Privacy Policy",
+  "invalidPhone": "Please enter a complete 10-digit phone number",
+  "invalidStartDigit": "A valid Indian mobile number starts with 6–9",
+  "example": "e.g., 98765 43210",
+  "detectedClipboard": "Detected a phone number on your clipboard",
+  "changeCountry": "Change country code"
+}
