@@ -3,7 +3,8 @@ const CACHE = 'ecosafe-v1';
 const ASSETS = [
   '/',
   '/index.html',
-  '/manifest.webmanifest'
+  '/manifest.webmanifest',
+  '/manifest.json'
 ];
 
 self.addEventListener('install', (e) => {
