@@ -22,14 +22,14 @@ export default function Language() {
   }
 
   return (
-    <div className="min-h-screen bg-white flex flex-col">
-      <h1 className="text-xl font-semibold text-center mt-10 mb-6">{t('selectTitle')}</h1>
-      <div className="grid grid-cols-2 gap-4 px-5">
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center">
+      <h1 className="text-xl font-semibold text-center mb-6">{t('selectTitle')}</h1>
+      <div className="grid grid-cols-2 gap-4 px-5 w-full max-w-md place-items-stretch">
         {LANGUAGES.map(l => (
           <button
             key={l.code}
             onClick={() => choose(l.code)}
-            className={`p-5 rounded-2xl ${l.color} relative transition`}
+            className={`p-5 rounded-2xl ${l.color} relative transition text-left`}
           >
             <div className="text-lg font-medium">{l.native}</div>
             <div className="text-xs opacity-70">{l.name}</div>

@@ -24,9 +24,9 @@ export function LoginScreen() {
       setError(t('invalidStartDigit'));
       return;
     }
-    localStorage.setItem('phone', digitsOnly);
     setError(undefined);
-    nav('/home', { replace: true });
+    // Move to OTP screen; persist on success screen
+    nav('/otp', { replace: true, state: { phone: digitsOnly, country } });
   };
 
   // Try pre-filling from clipboard (best-effort; may fail without gesture)

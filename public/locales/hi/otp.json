@@ -1,0 +1,7 @@
+{
+  "enterOtp": "{{phone}} पर भेजा गया 6 अंकों का ओटीपी दर्ज करें",
+  "wrongNumber": "गलत नंबर?",
+  "resend": "ओटीपी पुनः भेजें",
+  "verificationSuccessful": "सत्यापन सफल"
+}
+

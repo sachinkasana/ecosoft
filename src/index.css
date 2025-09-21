@@ -6,3 +6,6 @@
 html, body, #root { height: 100%; }
 * { -webkit-tap-highlight-color: transparent; }
 .safe { padding-bottom: env(safe-area-inset-bottom); }
+
+/* Leaflet container height fixes when nested in flex */
+.leaflet-container { outline: none; }

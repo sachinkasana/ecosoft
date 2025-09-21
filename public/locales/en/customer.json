@@ -1,0 +1,33 @@
+{
+  "title": "Add Customer",
+  "back": "Back",
+  "firstName": "First Name",
+  "surname": "Surname",
+  "phone1": "Phone Number 1",
+  "phone2": "Phone Number 2",
+  "whatsapp": "Whatsapp Number",
+  "email": "Email Address",
+  "house": "House number",
+  "address": "Address",
+  "city": "City",
+  "pin": "PIN Code",
+  "state": "State - India",
+  "type": "Type",
+  "typeCustomer": "Customer",
+  "typeSupplier": "Supplier",
+  "openingCredit": "Opening Credit",
+  "openingDebit": "Opening Debit",
+  "gps": "GPS Coordinates",
+  "lat": "Latitude",
+  "lng": "Longitude",
+  "pickOnMap": "Pick on Map",
+  "clear": "Clear",
+  "save": "Save",
+  "err": {
+    "required": "This field is required",
+    "phoneLen": "Enter a 10-digit phone number",
+    "phoneStart": "Phone must start with 6–9",
+    "email": "Enter a valid email",
+    "pin": "Enter a 6-digit PIN code"
+  }
+}

@@ -10,7 +10,7 @@ i18n
   .init({
     lng: initialLng,
     fallbackLng: 'en',
-    ns: ['splash', 'language', 'login'],
+    ns: ['splash', 'language', 'login', 'otp', 'permissions', 'home', 'customer', 'detail'],
     defaultNS: 'splash',
     debug: false,
     interpolation: { escapeValue: false },

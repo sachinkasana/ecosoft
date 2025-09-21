@@ -1,0 +1,13 @@
+{
+  "notifPrompt": "Allow {{app}} to send you notifications?",
+  "notifDesc": "Get alerts about important updates and account activity.",
+  "allow": "Allow",
+  "deny": "Don't allow",
+  "notifDeniedHint": "You can enable notifications later in your browser settings.",
+  "phoneTitle": "Calls and SMS",
+  "phoneDesc": "We may open your phone dialer for support calls and can auto-fill OTPs on supported Android devices using the Web OTP API.",
+  "sendTest": "Send a test notification",
+  "testBody": "This is a test notification from EcoSafe.",
+  "sendServerTest": "Send server push",
+  "sendBroadcast": "Broadcast to all devices"
+}

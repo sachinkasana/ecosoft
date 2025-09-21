@@ -1,0 +1,7 @@
+{
+  "enterOtp": "Enter 6 digit OTP sent to {{phone}}",
+  "wrongNumber": "Wrong Number?",
+  "resend": "Resend OTP",
+  "verificationSuccessful": "Verification Successful"
+}
+

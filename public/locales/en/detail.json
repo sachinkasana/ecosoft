@@ -1,0 +1,15 @@
+{
+  "back": "Back",
+  "notFound": "Customer not found",
+  "balance": "Balance",
+  "credit": "CREDIT",
+  "debit": "DEBIT",
+  "addEntry": "Add Entry",
+  "amount": "Amount",
+  "note": "Note",
+  "addPayment": "Add Payment",
+  "addDebit": "Add Debit",
+  "timeline": "Timeline",
+  "noEntries": "No entries yet"
+}
+
